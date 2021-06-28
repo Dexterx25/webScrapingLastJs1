@@ -1,0 +1,32 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "testings",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-scraping": " node -r dotenv/config index.js"
+  },
+  "keywords": [
+    "xd"
+  ],
+  "author": "david blanco",
+  "license": "MIT",
+  "dependencies": {
+    "@woocommerce/woocommerce-rest-api": "^1.0.1",
+    "axios": "^0.16.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "inquirer": "^8.1.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "nanoid": "^3.1.20",
+    "puppeteer": "^9.1.1",
+    "socket.io": "^3.1.1",
+    "woocommerce-api": "^1.5.0"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
